@@ -1,0 +1,8 @@
+Microsoft.SqlServer.Dts.Runtime.DtsRuntimeException: The element cannot be found in a collection. This error happens when you try to retrieve an element from a collection on a container during execution of the package and the element is not there.
+ ---> System.Runtime.InteropServices.COMException: The element cannot be found in a collection. This error happens when you try to retrieve an element from a collection on a container during execution of the package and the element is not there.
+
+   en Microsoft.SqlServer.Dts.Runtime.Wrapper.IDTSVariables100.get_Item(Object Index)
+   en Microsoft.SqlServer.Dts.Runtime.Variables.get_Item(Object index)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Microsoft.SqlServer.Dts.Runtime.Variables.get_Item(Object index)
+   en ST_4d34ec09ad814c678f5972b759c5f443.ScriptMain.Main()
